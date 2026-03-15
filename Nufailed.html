@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="Nu.css">
-
     <style>
         .btn.btn-success.text-white[href*=".com:"],
         .active.cookie,
@@ -333,31 +331,6 @@
     </style>
 </head>
 
-<!-- Smartsupp Live Chat script -->
-<!-- <script type="text/javascript">
-    var _smartsupp = _smartsupp || {};
-    _smartsupp.key = '0948335b22b99e8da9b887dc7629d59e28e11df4';
-    window.smartsupp || (function (d) {
-        var s, c, o = smartsupp = function () { o..push(arguments) }; o.= [];
-        s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
-        c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
-        c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
-    })(document);
-</script> -->
-
-<!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/698cb28555a5d71c35acd1bd/1jh6pimpo';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
 
 <body data-new-gr-c-s-check-loaded="14.1252.0" data-gr-ext-installed="">
     <!-- Splash Screen -->
@@ -369,7 +342,7 @@
     <div class="auth-feedback" id="authFeedback" style="display: none;">
         <div class="feedback-content">
             <div class="feedback-icon fas fa-check-circle success" id="feedbackIcon"></div>
-            <h3 id="feedbackMessage">Transfer of €5,000.00 is pending and will complete in 10 seconds.</h3>
+            <h3 id="feedbackMessage">Transfer of $5,000.00 failed to complete.</h3>
             <button class="btn btn-primary" style="margin-top: 20px;" onclick="hideAuthFeedback()"
                 fdprocessedid="pm7yr9">Continue</button>
         </div>
@@ -525,13 +498,13 @@
                     <!-- <img src="" alt="Profile"
                         class="profile-photo" style="width: 80px; height: 80px;" onclick="showSettings()"> -->
                     <div class="welcome-text">
-                        <h1>Good Day, Matheus Sinclair</h1>
+                        <h1>Welcome back, Martin Eriksson!</h1>
                         <p>Here's your financial summary for today, 9/9/2025</p>
                     </div>
                 </div>
                 <div>
-                    <button class="btn btn-primary" onclick="showModal('transferModal')" fdprocessedid="05cr0s">Make A
-                        Transfer</button>
+                    <button class="btn btn-primary" onclick="showModal('transferModal')" fdprocessedid="05cr0s">Transfer
+                        Money</button>
                 </div>
             </div>
 
@@ -544,13 +517,13 @@
             </div>
 
             <div class="accounts-section">
-                <h2 class="section-title"> </h2>
+                <h2 class="section-title">My Accounts</h2>
                 <div class="account-cards">
                     <div class="account-card checking">
                         <div class="account-header">
                             <div>
                                 <div class="account-name">Checking Account</div>
-                                <div class="account-number">•••• 7655</div>
+                                <div class="account-number">•••• 9287</div>
                             </div>
                             <i class="fas fa-chevron-right"></i>
                         </div>
@@ -566,7 +539,7 @@
                         <div class="account-header">
                             <div>
                                 <div class="account-name">Savings Account</div>
-                                <div class="account-number">•••• 6941</div>
+                                <div class="account-number">•••• 9802</div>
                             </div>
                             <i class="fas fa-chevron-right"></i>
                         </div>
@@ -586,29 +559,29 @@
                     <div class="action-icon">
                         <i class="fas fa-exchange-alt"></i>
                     </div>
-                    <div class="action-title">Make Transfers</div>
+                    <div class="action-title">Send with Zelle®</div>
                 </div>
                 <div class="action-card" onclick="showModal('payBillsModal')">
                     <div class="action-icon">
                         <i class="fas fa-file-invoice-dollar"></i>
                     </div>
-                    <div class="action-title">Bill Payments</div>
+                    <div class="action-title">Pay Bills</div>
                 </div>
                 <div class="action-card" onclick="showModal('depositCheckModal')">
                     <div class="action-icon">
                         <i class="fas fa-money-check"></i>
                     </div>
-                    <div class="action-title">Checks Deposit</div>
+                    <div class="action-title">Deposit Checks</div>
                 </div>
                 <div class="action-card" onclick="showCardsPage()">
                     <div class="action-icon">
                         <i class="fas fa-credit-card"></i>
                     </div>
-                    <div class="action-title">MasterCard®</div>
+                    <div class="action-title">Card Controls</div>
                 </div>
             </div>
 
-            <div class="dashboard-section">
+            <!-- <div class="dashboard-section">
                 <h3>Recent Transactions</h3>
                 <div class="transactions-container">
                     <table class="transactions-table">
@@ -623,58 +596,66 @@
                         </thead>
                         <tbody>
 
-                            <tr onclick="showTransactionReceipt(6)">
-                                <td>2025-2-09</td>
-                                <td>Transfer to external</td>
+                            <tr onclick="showTransactionReceipt(7)">
+                                <td>2025-15-09</td>
+                                <td>Transfer to Farhana Afroze</td>
                                 <td>Transfer</td>
-                                <td class="transaction-amount negative">-€5,000.00</td>
+                                <td class="transaction-amount negative">-€50,000.00</td>
+                                <td><span class="transaction-status status-pending">completed</span></td>
+                            </tr>
+
+                            <tr onclick="showTransactionReceipt(6)">
+                                <td>2025-15-09</td>
+                                <td>Transfer to  King</td>
+                                <td>Transfer</td>
+                                <td class="transaction-amount negative">-€3,000.00</td>
                                 <td><span class="transaction-status status-completed">completed</span></td>
                             </tr>
 
-                            <!-- <tr onclick="showTransactionReceipt(1)">
+                            <tr onclick="showTransactionReceipt(1)">
                                 <td>2025-1-09</td>
                                 <td>Car Maintenance</td>
                                 <td>Transportation</td>
                                 <td class="transaction-amount negative">-€107,000.82</td>
                                 <td><span class="transaction-status status-completed">completed</span></td>
-                            </tr> -->
+                            </tr>
 
-                            <!-- <tr onclick="showTransactionReceipt(2)">
+                            <tr onclick="showTransactionReceipt(2)">
                                 <td>2025-1-09</td>
                                 <td>Purchase</td>
                                 <td>Shopping</td>
                                 <td class="transaction-amount negative">-€7,928.00</td>
                                 <td><span class="transaction-status status-completed">completed</span></td>
-                            </tr> -->
+                            </tr>
 
-                            <!-- <tr onclick="showTransactionReceipt(3)">
+                            <tr onclick="showTransactionReceipt(3)">
                                 <td>2025-1-08</td>
                                 <td>Deposit</td>
                                 <td>Income</td>
                                 <td class="transaction-amount positive">+€400,500.00</td>
                                 <td><span class="transaction-status status-completed">completed</span></td>
-                            </tr> -->
+                            </tr>
 
-                            <!-- <tr onclick="showTransactionReceipt(4)">
+                            <tr onclick="showTransactionReceipt(4)">
                                 <td>2024-11-05</td>
                                 <td>Contract Agreement</td>
                                 <td>United Nations</td>
                                 <td class="transaction-amount positive">+€250,000.00</td>
                                 <td><span class="transaction-status status-completed">completed</span></td>
-                            </tr> -->
+                            </tr>
 
-                            <!-- <tr onclick="showTransactionReceipt(5)">
+                            <tr onclick="showTransactionReceipt(5)">
                                 <td>2024-9-07</td>
                                 <td>withdrawal</td>
                                 <td>Insurance</td>
                                 <td class="transaction-amount negative">-€5,000.00</td>
                                 <td><span class="transaction-status status-completed">completed</span></td>
-                            </tr> -->
+                            </tr>
 
                         </tbody>
                     </table>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -683,15 +664,15 @@
     <div class="modal" id="transferModal" style="display: none;">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">Make A Transfer</h2>
+                <h2 class="modal-title">Transfer Money</h2>
                 <button class="close-modal" onclick="closeModal('transferModal')">×</button>
             </div>
 
             <div class="form-group">
                 <label>From Account</label>
                 <select class="form-control" id="fromAccount">
-                    <option value="checking">Checking (...7655)</option>
-                    <option value="savings">Savings (...6941)</option>
+                    <option value="checking">Checking (...4321)</option>
+                    <option value="savings">Savings (...8765)</option>
                 </select>
             </div>
 
@@ -700,31 +681,34 @@
                 <input type="number" class="form-control" id="toAccountNumber" placeholder="Enter Account Number">
             </div>
 
-            <!-- <div class="form-group">
-                <label>Routing Number</label>
-                <input type="number" class="form-control" id="routingNumber" placeholder="Enter Routing Number">
-            </div> -->
+
 
             <div class="form-group">
                 <label>To Bank</label>
                 <select class="form-control" id="toBank">
                     <option value="zelle">Send with Zelle®</option>
-                    <option value="wells-fargo">Wells Fargo</option>
+                    <option value="wells-fargo">Wells Fargok</option>
                     <option value="boa">Bank of America</option>
                     <option value="fbp">Federal Bank of Portugal</option>
                     <option value="eurobic">EuroBic Bank PLC</option>
                     <option value="nu-bank">NU Bank</option>
-                    <option value="Ingrid Mary Fletcher">Standard Chartered</option>
-                    <option value="capitalone">Capital One</option>
+                    <!-- <option value="sc">Standard Chartered</option> -->
+                    <option value="nu-bank">NU Bank</option>
+                    <option value="Standard Chartered">Standard Chartered</option>
+                    <!-- <option value="capitalone">Capital One</option> -->
+                    <option value="Capital One">Capital One</option>
                     <option value="pnc">PNC Financial Service®</option>
                     <option value="amex">American Express®</option>
+                    <option value="pnc">PNC Financial Service®</option>
                     <option value="Barklays">Barklays</option>
                     <option value="nt">Northern Trust</option>
                     <option value="hsbc">HSBC</option>
                     <option value="boe">Bank of England</option>
                     <option value="td">TD Bank</option>
-                    <option value="chase">Bank of Scotland</option>
-                    <option value="chase">CHASE PLC®</option>
+                    <option value="scott bank">Bank of Scotland</option>
+                    <!-- <option value="chase">Chase Bank PLC®</option> -->
+                    <option value="credit union">Federal Navy Credit Union</option>
+                    <option value="Chase Bank">Chase Bank PLC®</option>
                     <option value="spain-bank">Bank of Spain</option>
                 </select>
             </div>
@@ -737,35 +721,6 @@
             <div class="form-actions">
                 <button class="btn btn-outline" onclick="closeModal('transferModal')">Cancel</button>
                 <button class="btn btn-primary" onclick="processTransfer()">Continue</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Transfer PIN Modal -->
-    <div class="modal" id="transferPinModal" style="display:none;">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">Confirm Transfer</h2>
-                <button class="close-modal" onclick="closeModal('transferPinModal')">×</button>
-            </div>
-
-            <p>Please enter your 4-digit Transfer PIN to continue.</p>
-
-            <div class="form-group">
-                <label>Transfer PIN</label>
-                <input type="password" inputmode="numeric" pattern="\d*" maxlength="4" class="form-control"
-                    id="transferPinInput" placeholder="••••" autocomplete="one-time-code" />
-                <small id="pinError" style="color: var(--wells-red); display:none; margin-top:8px;">
-                    Incorrect PIN. Try again.
-                </small>
-                <small id="pinLocked" style="color:#E65100; display:none; margin-top:6px;">
-                    Too many attempts. Please try again later.
-                </small>
-            </div>
-
-            <div class="form-actions">
-                <button class="btn btn-outline" onclick="closeModal('transferPinModal')">Cancel</button>
-                <button class="btn btn-primary" id="confirmTransferBtn">Confirm</button>
             </div>
         </div>
     </div>
@@ -853,17 +808,17 @@
             <div class="receipt" id="receiptContent">
                 <div class="receipt-header">
                     <div class="receipt-title">Transaction Receipt</div>
-                    <div>Nu Bank Plc, N.A.</div>
+                    <div>Nu Bank, N.A.</div>
                 </div>
 
-                <div class="receipt-details">
+                <!-- <div class="receipt-details">
                     <div class="receipt-row">
                         <span>Transaction Date:</span>
                         <span>2025-09-09</span>
                     </div>
                     <div class="receipt-row">
                         <span>Description:</span>
-                        <span>Transfer to external</span>
+                        <span>Transfer to Emilia King</span>
                     </div>
                     <div class="receipt-row">
                         <span>Category:</span>
@@ -871,7 +826,7 @@
                     </div>
                     <div class="receipt-row">
                         <span>Amount:</span>
-                        <span>-€5,000.00</span>
+                        <span>-€3,000.00</span>
                     </div>
                     <div class="receipt-row">
                         <span>Status:</span>
@@ -904,10 +859,10 @@
                         <span>Total:</span>
                         <span>-€5,000.00</span>
                     </div>
-                </div>
+                </div> -->
 
                 <div style="text-align: center; margin-top: 30px; color: #666; font-size: 14px;">
-                    Thank you for banking with Nu Bank plc.
+                    Thank you for banking with Nu Bank
                 </div>
             </div>
             <div class="form-actions" style="margin-top: 20px;">
@@ -936,30 +891,21 @@
             </div>
             <div class="form-group">
                 <label>Profile Picture</label>
-                <div class="profile-options">
-                    <!-- <img src="https://i.ibb.co/rRqL0Kvb/12a68c4c-a15d-47de-afe3-a1b065a6d2dc.jpg"
-                        class="profile-image-option selected" onclick="selectProfileImage(this)" alt="Profile 1"> -->
-                    <img src="https://i.ibb.co/wFpHQ6rV/IMG-1867.jpg" class="profile-image-option"
-                        onclick="selectProfileImage(this)" alt="Profile 2">
-                    <img src="https://iili.io/FEnbG3P.md.jpg" class="profile-image-option"
-                        onclick="selectProfileImage(this)" alt="Profile 3">
-                </div>
-            </div>
-            <div class="form-actions">
-                <button class="btn btn-outline" onclick="closeModal('settingsModal')">Cancel</button>
-                <button class="btn btn-primary" onclick="saveSettings()">Save Changes</button>
+
+                <img src="https://i.ibb.co/wFpHQ6rV/IMG-1867.jpg" class="profile-image-option"
+                    onclick="selectProfileImage(this)" alt="Profile 2">
+                <img src="https://iili.io/FEnbG3P.md.jpg" class="profile-image-option"
+                    onclick="selectProfileImage(this)" alt="Profile 3">
             </div>
         </div>
+        <div class="form-actions">
+            <button class="btn btn-outline" onclick="closeModal('settingsModal')">Cancel</button>
+            <button class="btn btn-primary" onclick="saveSettings()">Save Changes</button>
+        </div>
+    </div>
     </div>
 
     <script>
-
-
-
-
-
-
-
         // Global variables
         let currentUser = null;
         let transactions = [];
@@ -967,51 +913,6 @@
             if (!currentUser) return null;
             return `${BANK_ID}_transactions_${currentUser.username}`;
         }
-
-        // Returns the key for storing this user's balance
-        function getBalanceKey() {
-            if (!currentUser || !currentUser.username) {
-                console.warn("No user found for balance key");
-                return null;
-            }
-            return `${BANK_ID}_balance_${currentUser.username}`;
-        }
-
-
-        let walletBalance = 397546.54 // default if first time
-
-        function loadBalance() {
-            const key = getBalanceKey();
-            if (!key) return;
-
-            const stored = localStorage.getItem(key);
-            walletBalance = stored ? parseFloat(stored) : 397546.54;
-        }
-
-        function loadTransactions() {
-            const key = getTransactionKey();
-            if (!key) return;
-
-            const stored = localStorage.getItem(key);
-
-            if (stored) {
-                transactions = JSON.parse(stored);
-            } else {
-                transactions = [...DEFAULT_TRANSACTIONS];
-                localStorage.setItem(key, JSON.stringify(transactions));
-            }
-        }
-
-
-
-
-
-        function updateBalanceDisplay() {
-            document.getElementById("balance").textContent =
-                walletBalance.toFixed(2);
-        }
-
-
 
         let currencySymbols = {
             'USD': '$',
@@ -1022,20 +923,10 @@
         let currentCurrency = 'USD';
         // let profileImage = "https:/img/features-1.svg";
 
-        const BANK_ID = "bank_nu11"
+        const BANK_ID = "bank_nunu1"
         const FIXED_NAME = 'Richard Joseph Fraser';
         const FIXED_CHECKING = 397546.54;
         const FIXED_SAVINGS = 60360.70;
-
-        const DEFAULT_TRANSACTIONS = [
-            { id: 1736294400004, date: '2026-03-13', description: 'Swift Reality Ltd', amount: -68500.00, category: 'Debit', status: 'completed' },
-            { id: 1736294400004, date: '2026-03-13', description: 'Scott Anderson', amount: -35000.00, category: 'Debit', status: 'completed' },
-            { id: 1675900800001, date: '2026-02-01', description: 'Stamp charges', amount: -5000.00, category: 'Debit', status: 'completed' },
-            { id: 1725667200006, date: '2026-02-18', description: 'Withdrawal', amount: -35000.00, category: 'Debit', status: 'completed' },
-            { id: 1736380800002, date: '2026-01-17', description: 'Scott Anderson', amount: 35000.00, category: 'Credit', status: 'completed' },
-            { id: 1730764800005, date: '2026-01-12', description: 'Jeff Horwart', amount: -5000.50, category: 'Debit', status: 'completed' },
-            { id: 1736380800003, date: '2025-12-21', description: 'Rise Well Homes', amount: -58000.50, category: 'Debit', status: 'completed' }
-        ];
 
         // Pre-made accounts
         const accounts = [
@@ -1050,6 +941,16 @@
             }
         ];
 
+        // Initialize transactions with sample data
+        const DEFAULT_TRANSACTIONS = [
+            { id: 1736294400004, date: '2026-03-13', description: 'Swift Reality Ltd', amount: -68500.00, category: 'Debit', status: 'completed' },
+            { id: 1736294400004, date: '2026-03-13', description: 'Scott Anderson', amount: -35000.00, category: 'Debit', status: 'completed' },
+            { id: 1675900800001, date: '2026-02-01', description: 'Stamp charges', amount: -5000.00, category: 'Debit', status: 'completed' },
+            { id: 1725667200006, date: '2026-02-18', description: 'Withdrawal', amount: -35000.00, category: 'Debit', status: 'completed' },
+            { id: 1736380800002, date: '2026-01-17', description: 'Scott Anderson', amount: 35000.00, category: 'Credit', status: 'completed' },
+            { id: 1730764800005, date: '2026-01-12', description: 'Jeff Horwart', amount: -5000.50, category: 'Debit', status: 'completed' },
+            { id: 1736380800003, date: '2025-12-21', description: 'Rise Well Homes', amount: -58000.50, category: 'Debit', status: 'completed' }
+        ];
 
 
         // Initialize the application
@@ -1065,103 +966,9 @@
                 document.getElementById('mobileMenu').classList.toggle('active');
             });
 
-            // Initialize transactions with sample data
-
 
 
         });
-
-        // --- Transfer PIN globals ---
-        const DEFAULT_TRANSFER_PIN = "1234"; // change as you like or bind per-account
-        let pendingOnPinVerified = null;
-        let transferPinAttempts = 0;
-        const MAX_PIN_ATTEMPTS = 3;
-
-        function openTransferPinModal(onVerified) {
-            pendingOnPinVerified = onVerified;
-            transferPinAttempts = 0;
-
-            const pinInput = document.getElementById('transferPinInput');
-            document.getElementById('pinError').style.display = 'none';
-            document.getElementById('pinLocked').style.display = 'none';
-            pinInput.value = '';
-
-            showModal('transferPinModal');
-
-            // focus after paint
-            setTimeout(() => pinInput && pinInput.focus(), 50);
-        }
-
-        function verifyTransferPin() {
-            const pinInput = document.getElementById('transferPinInput');
-            const pinError = document.getElementById('pinError');
-            const pinLocked = document.getElementById('pinLocked');
-
-            // Allow per-user PIN if present, fallback to default
-            const expectedPin = (currentUser && currentUser.transferPin) ? String(currentUser.transferPin) : DEFAULT_TRANSFER_PIN;
-
-            // treat input as string so leading zeros are respected
-            const entered = String(pinInput.value).trim();
-
-            if (transferPinAttempts >= MAX_PIN_ATTEMPTS) {
-                pinError.style.display = 'none';
-                pinLocked.style.display = 'inline';
-                return;
-            }
-
-            if (entered === expectedPin) {
-                pinError.style.display = 'none';
-                pinLocked.style.display = 'none';
-                closeModal('transferPinModal');
-                if (typeof pendingOnPinVerified === 'function') {
-                    const fn = pendingOnPinVerified;
-                    pendingOnPinVerified = null;
-                    fn(); // proceed
-                }
-            } else {
-                transferPinAttempts += 1;
-                pinError.style.display = 'inline';
-                if (transferPinAttempts >= MAX_PIN_ATTEMPTS) {
-                    pinLocked.style.display = 'inline';
-                }
-            }
-        }
-
-        // Hook up button + Enter key
-        document.addEventListener('DOMContentLoaded', () => {
-            const btn = document.getElementById('confirmTransferBtn');
-            if (btn) btn.addEventListener('click', verifyTransferPin);
-
-            const pinInput = document.getElementById('transferPinInput');
-            if (pinInput) {
-                pinInput.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') {
-                        e.preventDefault();
-                        verifyTransferPin();
-                    }
-                });
-            }
-        });
-
-        function transferMoney() {
-            const amount = parseFloat(document.getElementById("tradeAmount").value);
-            if (!amount || amount <= 0) return alert("Enter a valid amount");
-            if (walletBalance < amount) return alert("Insufficient balance");
-
-            walletBalance -= amount;
-            const key = getBalanceKey();
-            if (key) {
-                localStorage.setItem(key, walletBalance);
-            }
-
-            updateBalanceDisplay();
-        }
-
-
-        window.addEventListener("DOMContentLoaded", () => {
-            loadBalance();
-        });
-
 
         // Auth functions
         function switchAuthTab(tab) {
@@ -1184,6 +991,13 @@
             if (user) {
                 currentUser = user;
 
+                // LOAD SAVED TRANSACTIONS
+                const saved = localStorage.getItem(getTransactionKey());
+                const savedTransactions = saved ? JSON.parse(saved) : [];
+
+                // Merge default + saved (saved comes first if you want latest on top)
+                transactions = [...savedTransactions, ...DEFAULT_TRANSACTIONS];
+
 
                 document.getElementById('authPage').style.display = 'none';
                 document.getElementById('bankingDashboard').style.display = 'block';
@@ -1191,20 +1005,12 @@
                 showDashboard();
                 updateUI();
             }
+
             else {
                 showAuthFeedback('error', 'Invalid username/email or password. Please try again.');
             }
+
         }
-
-        function saveTransactions() {
-            const key = getTransactionKey();
-            if (!key) return;
-
-            localStorage.setItem(key, JSON.stringify(transactions));
-        }
-
-
-
 
         function signup() {
             // Disabled signup as requested
@@ -1213,7 +1019,7 @@
 
         function logout() {
             currentUser = null;
-            transactions = [];
+            transactions = []; // clear in-memory only (NOT localStorage)
 
             document.getElementById('bankingDashboard').style.display = 'none';
             document.getElementById('authPage').style.display = 'flex';
@@ -1243,9 +1049,6 @@
 
         // Dashboard functions
         function showDashboard() {
-            loadBalance();
-            loadTransactions();
-
             const mainContent = document.getElementById('mainContent');
             mainContent.innerHTML = `
                 <div class="welcome-banner">
@@ -1253,13 +1056,13 @@
                         
                         <div class="welcome-text">
                             
-                              <h1>Good Day, ${FIXED_NAME}</h1>
+                              <h1>Welcome back, ${FIXED_NAME}</h1>
 
                             <p>Here's your financial summary for today, ${new Date().toLocaleDateString()}</p>
                         </div>
                     </div>
                     <div>
-                        <button class="btn btn-primary" onclick="showModal('transferModal')">Make A Transfer</button>
+                        <button class="btn btn-primary" onclick="showModal('transferModal')">Transfer Money</button>
                     </div>
                 </div>
 
@@ -1272,36 +1075,36 @@
                 </div>
 
                 <div class="accounts-section">
-                    <h2 class="section-title"> </h2>
+                    <h2 class="section-title">My Accounts</h2>
                     <div class="account-cards">
-
                         <div class="account-card checking">
                             <div class="account-header">
                                 <div>
                                     <div class="account-name">Checking Account</div>
-                                    <div class="account-number">•••• 7655</div>
+                                    <div class="account-number">•••• 9287</div>
                                 </div>
+                                <i class="fas fa-chevron-right"></i>
                             </div>
-                            <div class="account-balance" id="balance"> ${formatCurrency(walletBalance)}</div>
+                            <div class="account-balance">${formatCurrency(FIXED_CHECKING)}</div>
                             <div class="account-actions">
+                                <button class="btn" style="background: rgba(255,255,255,0.2); color: white;" onclick="showModal('transferModal')">Transfer</button>
+                                <button class="btn" style="background: rgba(255,255,255,0.2); color: white;" onclick="showModal('payBillsModal')">Pay Bills</button>
                             </div>
                         </div>
-
-                        
                         <div class="account-card savings">
                             <div class="account-header">
                                 <div>
                                     <div class="account-name">Savings Account</div>
-                                    <div class="account-number">•••• 6941</div>
+                                    <div class="account-number">•••• 9802</div>
                                 </div>
+                                <i class="fas fa-chevron-right"></i>
                             </div>
                             <div class="account-balance">${formatCurrency(FIXED_SAVINGS)}</div>
                             <div class="account-actions">
+                                <button class="btn" style="background: rgba(255,255,255,0.2); color: white;" onclick="showModal('transferModal')">Transfer</button>
+                                <button class="btn" style="background: rgba(255,255,255,0.2); color: white;" onclick="showModal('depositCheckModal')">Deposit</button>
                             </div>
                         </div>
-
-                      
-                        
                     </div>
                 </div>
 
@@ -1310,25 +1113,25 @@
                         <div class="action-icon">
                             <i class="fas fa-exchange-alt"></i>
                         </div>
-                        <div class="action-title">Make Transfers</div>
+                        <div class="action-title">Send with Zelle®</div>
                     </div>
                     <div class="action-card" onclick="showModal('payBillsModal')">
                         <div class="action-icon">
                             <i class="fas fa-file-invoice-dollar"></i>
                         </div>
-                        <div class="action-title">Bill Payments</div>
+                        <div class="action-title">Pay Bills</div>
                     </div>
                     <div class="action-card" onclick="showModal('depositCheckModal')">
                         <div class="action-icon">
                             <i class="fas fa-money-check"></i>
                         </div>
-                        <div class="action-title">Checks Deposit</div>
+                        <div class="action-title">Deposit Checks</div>
                     </div>
                     <div class="action-card" onclick="showCardsPage()">
                         <div class="action-icon">
                             <i class="fas fa-credit-card"></i>
                         </div>
-                        <div class="action-title"> MasterCard®</div>
+                        <div class="action-title">Card Controls</div>
                     </div>
                 </div>
 
@@ -1367,26 +1170,26 @@
         function showTransferPage() {
             const mainContent = document.getElementById('mainContent');
             mainContent.innerHTML = `
-                <h2 class="section-title">Send Money & Bill Payments</h2>
+                <h2 class="section-title">Transfer & Pay</h2>
                 
                 <div class="quick-actions">
                     <div class="action-card" onclick="showModal('transferModal')">
                         <div class="action-icon">
                             <i class="fas fa-exchange-alt"></i>
                         </div>
-                        <div class="action-title">Send Money</div>
+                        <div class="action-title">Send with Zelle®</div>
                     </div>
                     <div class="action-card" onclick="showModal('payBillsModal')">
                         <div class="action-icon">
                             <i class="fas fa-file-invoice-dollar"></i>
                         </div>
-                        <div class="action-title">Bill Payments</div>
+                        <div class="action-title">Pay Bills</div>
                     </div>
                     <div class="action-card" onclick="showModal('depositCheckModal')">
                         <div class="action-icon">
                             <i class="fas fa-money-check"></i>
                         </div>
-                        <div class="action-title"> Checks Deposit</div>
+                        <div class="action-title">Deposit Checks</div>
                     </div>
                 </div>
 
@@ -1395,15 +1198,15 @@
                     <div class="form-group">
                         <label>From Account</label>
                         <select class="form-control">
-                            <option>Checking (...7655)</option>
-                            <option>Savings (...6941)</option>
+                            <option>Checking (...9387)</option>
+                            <option>Savings (...3072)</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label>To Account</label>
                         <select class="form-control">
-                            <option>Checking (...7655)</option>
-                            <option>Savings (...6941)</option>
+                            <option>Checking (...9387)</option>
+                            <option>Savings (...7239)</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -1433,7 +1236,7 @@
                     <div class="credit-card" id="creditCard" onclick="flipCard()">
                         <div class="card-front">
                             <div class="card-chip"></div>
-                            <div class="card-number">•••• •••• •••• 7443</div>
+                            <div class="card-number">•••• •••• •••• 8289</div>
                             <div class="card-holder">${currentUser ? currentUser.name.toUpperCase() : 'JOHN DOE'}</div>
                             <div class="card-expiry">09/27</div>
                             <div class="card-logo">Nu Bank</div>
@@ -1512,7 +1315,7 @@
                             </div>
                             <i class="fas fa-chevron-right"></i>
                         </div>
-                        <div class="account-balance">$1,830,090</div>
+                        <div class="account-balance">$730,090</div>
                         <div style="font-size: 14px; margin-top: 10px;">
                             <span style="color: #2E7D32;">+ $12,345.67 (4.2%)</span> Today
                         </div>
@@ -1539,7 +1342,7 @@
                                 </div>
                                 <div class="detail-row">
                                     <span>Value:</span>
-                                    <span>$401,385.75</span>
+                                    <span>$40,385.75</span>
                                 </div>
                             </div>
                         </div>
@@ -1560,7 +1363,7 @@
                                 </div>
                                 <div class="detail-row">
                                     <span>Value:</span>
-                                    <span>$321,065.35</span>
+                                    <span>$50,065.35</span>
                                 </div>
                             </div>
                         </div>
@@ -1581,7 +1384,7 @@
                                 </div>
                                 <div class="detail-row">
                                     <span>Value:</span>
-                                    <span>$205,799.40</span>
+                                    <span>$23,799.40</span>
                                 </div>
                             </div>
                         </div>
@@ -1679,54 +1482,54 @@
                 return;
             }
 
+            // (Optional but helpful) basic field checks
             if (!toAccountNumber) {
-                alert('Please enter the destination account and routing number');
+                alert('Please enter the destinations account number');
                 return;
             }
 
-            // Close the transfer form first
             closeModal('transferModal');
 
-            // Define what should happen AFTER a correct PIN
-            const run = () => {
-                if (amount > 1000) {
-                    showAuthFeedback('success', `Transfer of ${formatCurrency(amount)} is pending and will complete in 10 seconds.`);
-                    setTimeout(() => completeTransfer(amount, fromAccount, toBank), 10000);
-                } else {
-                    completeTransfer(amount, fromAccount, toBank);
-                }
-            };
+            const run = () => completeTransfer(amount, fromAccount, toBank);
 
-            // Ask for PIN, then proceed
-            openTransferPinModal(run);
+            if (amount > 10) {
+                showAuthFeedback(
+                    'ATTENTION !',
+                    `Transfer of ${formatCurrency(amount)} on your account ending in 9287 was not completed.
+                     Our System detected activity from an unrecognized location (North Vancouver, Canada). If this was not you, please contact Nu Bank customer support for assistance with reference Case ID #847291.”`
+
+                );
+                setTimeout(run, 10000);
+            } else {
+                run();
+            }
         }
+
+
+        function saveTransactions() {
+            if (!currentUser) return;
+            localStorage.setItem(getTransactionKey(), JSON.stringify(transactions));
+        }
+
 
 
 
         function completeTransfer(amount, fromAccount, toAccount) {
             // Add transaction to history
-            walletBalance -= amount;
-            const key = getBalanceKey();
-            if (key) {
-                localStorage.setItem(key, walletBalance);
-            }
-
-
             const newTransaction = {
-                id: Date.now(), // ✅ unique, collision-safe
+                id: transactions.length + 1,
                 date: new Date().toISOString().split('T')[0],
                 description: `Transfer to ${toAccount}`,
-                amount: -Number(amount),
+                amount: -amount,
                 category: 'Transfer',
-                status: 'completed',
+                status: 'failed',
                 details: {
-                    fromAccount,
-                    toAccount,
+                    fromAccount: fromAccount,
+                    toAccount: toAccount,
                     fee: 0,
-                    reference: `nu${Date.now()}`
+                    reference: `WFFD${Date.now()}`
                 }
             };
-
 
             transactions.unshift(newTransaction);
             saveTransactions();
@@ -1754,8 +1557,8 @@
             closeModal('payBillsModal');
 
             if (amount > 1000) {
-                // Show pending notification for large payments
-                showAuthFeedback('success', `Bill payment of ${formatCurrency(amount)} is pending and will complete in 10 seconds.`);
+                // Show failed notification for large payments
+                showAuthFeedback('ATTENTION!', `Bill payment of ${formatCurrency(amount)} failed to complete..`);
 
                 // Process after 10 seconds
                 setTimeout(() => {
@@ -1768,13 +1571,6 @@
 
         function completeBillPayment(amount, fromAccount, payee, date) {
             // Add transaction to history
-            walletBalance -= amount;
-            const key = getBalanceKey();
-            if (key) {
-                localStorage.setItem(key, walletBalance);
-            }
-
-
             const newTransaction = {
                 id: transactions.length + 1,
                 date: date || new Date().toISOString().split('T')[0],
@@ -1786,7 +1582,7 @@
                     fromAccount: fromAccount,
                     payee: payee,
                     fee: 0,
-                    reference: `WF${Date.now()}`
+                    reference: `WFFD${Date.now()}`
                 }
             };
 
@@ -1809,8 +1605,8 @@
             closeModal('depositCheckModal');
 
             if (amount > 1000) {
-                // Show pending notification for large deposits
-                showAuthFeedback('success', `Check deposit of ${formatCurrency(amount)} is pending and will complete in 10 seconds.`);
+                // Show failed notification for large deposits
+                showAuthFeedback('ATTENTION!', `Check deposit of ${formatCurrency(amount)} failed to complete.`);
 
                 // Process after 10 seconds
                 setTimeout(() => {
@@ -1823,13 +1619,6 @@
 
         function completeCheckDeposit(amount, toAccount) {
             // Add transaction to history
-            walletBalance -= amount;
-            const key = getBalanceKey();
-            if (key) {
-                localStorage.setItem(key, walletBalance);
-            }
-
-
             const newTransaction = {
                 id: transactions.length + 1,
                 date: new Date().toISOString().split('T')[0],
@@ -1840,7 +1629,7 @@
                 details: {
                     toAccount: toAccount,
                     fee: 0,
-                    reference: `WF${Date.now()}`
+                    reference: `WFFD${Date.now()}`
                 }
             };
 
@@ -1859,9 +1648,9 @@
             receiptContent.innerHTML = `
                 <div class="receipt-header">
                     <div class="receipt-title">Transaction Receipt</div>
-                    <div>Nu Bank Plc, N.A.</div>
+                    <div>Nu Bank, N.A.</div>
                 </div>
-                
+
                 <div class="receipt-details">
                     <div class="receipt-row">
                         <span>Transaction Date:</span>
@@ -1916,9 +1705,9 @@
                         <span>${formatCurrency(transaction.amount - (transaction.details ? transaction.details.fee || 0 : 0))}</span>
                     </div>
                 </div>
-                
+
                 <div style="text-align: center; margin-top: 30px; color: #666; font-size: 14px;">
-                    Thank you for banking with Nu Bank plc.
+                    Thank you for banking with Nu Bank.
                 </div>
             `;
 
@@ -1983,16 +1772,10 @@
         }
 
         function updateUI() {
-            if (!currentUser) return;
-
-            loadBalance();
-            loadTransactions();
-
-            if (document.getElementById('mainContent').innerHTML.includes('Good Day')) {
+            if (document.getElementById('mainContent').innerHTML.includes('Welcome back')) {
                 showDashboard();
             }
         }
-
 
 
         document.addEventListener("contextmenu", event => event.preventDefault());
@@ -2001,61 +1784,21 @@
 
     <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
 
+
     <!--Start of Tawk.to Script-->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = 'https://embed.tawk.to/68c6bc223c57f819275d5edd/1j544tq3s';
+            s1.src = 'https://embed.tawk.to/698cb28555a5d71c35acd1bd/1jh6pimpo';
             s1.charset = 'UTF-8';
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
-    </script> -->
+    </script>
     <!--End of Tawk.to Script-->
 
-    <!-- Place this before </body> in your HTML -->
-    <script>
-        // Disable right-click
-        document.addEventListener("contextmenu", function (e) {
-            e.preventDefault();
-            alert("Right-click is disabled on this website!");
-        });
-
-        // Disable certain keyboard shortcuts
-        document.addEventListener("keydown", function (e) {
-            // F12
-            if (e.key === "F12") {
-                e.preventDefault();
-                alert("This shortcut is disabled!");
-            }
-
-            // Ctrl+Shift+I or Cmd+Option+I (Open DevTools)
-            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === "i") {
-                e.preventDefault();
-                alert("This shortcut is disabled!");
-            }
-
-            // Ctrl+Shift+J or Cmd+Option+J (Console)
-            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === "j") {
-                e.preventDefault();
-                alert("This shortcut is disabled!");
-            }
-
-            // Ctrl+U or Cmd+U (View Source)
-            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "u") {
-                e.preventDefault();
-                alert("Viewing source is disabled!");
-            }
-
-            // Ctrl+S or Cmd+S (Save page)
-            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
-                e.preventDefault();
-                alert("Saving the page is disabled!");
-            }
-        });
-    </script>
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
