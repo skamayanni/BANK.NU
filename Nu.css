@@ -684,9 +684,19 @@ body {
     font-weight: 600;
 }
 
+.status-failed {
+    background: #FFF3E0;
+    color: #9d0d0d;
+}
+
 .status-pending {
     background: #FFF3E0;
     color: #E65100;
+}
+
+.status-reverted {
+    background: #FFF3E0;
+    color: #82da07;
 }
 
 .status-completed {
@@ -857,6 +867,8 @@ body {
     margin-bottom: 8px;
     font-size: 14px;
 }
+
+
 
 /* Modals */
 .modal {

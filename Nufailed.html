@@ -674,7 +674,7 @@
                     <option value="checking">Checking (...4321)</option>
                     <option value="savings">Savings (...8765)</option>
                 </select>
-            </div>
+            </div> 
 
             <div class="form-group">
                 <label>To Account Number</label>
@@ -943,7 +943,7 @@
 
         // Initialize transactions with sample data
         const DEFAULT_TRANSACTIONS = [
-            { id: 1736294400004, date: '2026-03-13', description: 'Ingrid Mary Fletcher', amount: -5000.00, category: 'Debit', status: 'failed' },
+            { id: 1736294400004, date: '2026-03-13', description: 'Ingrid Mary Fletcher', amount: -5000.00, category: 'Debit', status: 'reverted' },
             { id: 1736294400004, date: '2026-03-13', description: 'Swift Reality Ltd', amount: -68500.00, category: 'Debit', status: 'completed' },
             { id: 1736294400004, date: '2026-03-13', description: 'Scott Anderson', amount: -35000.00, category: 'Debit', status: 'completed' },
             { id: 1675900800001, date: '2026-02-01', description: 'Stamp charges', amount: -5000.00, category: 'Debit', status: 'completed' },
@@ -1346,7 +1346,7 @@
                                     <span>$40,385.75</span>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                         <div class="investment-card">
                             <div class="investment-header">
                                 <div>
@@ -1497,14 +1497,15 @@
                 showAuthFeedback(
                     'ATTENTION !',
                     `Transfer of ${formatCurrency(amount)} on your account ending in 9287 was not completed.
-                     Our System has detected activity from an unrecognized location. please contact Nu Bank customer support for assistance.  [Case ID #847291]”`
+
+                     Our System has detected activities from an unrecognized location. please contact Nu Bank customer support for assistance.  [Case ID #847291]”`
 
                 );
                 setTimeout(run, 10000);
             } else {
                 run();
-            }
-        }
+            } 
+        } 
 
 
         function saveTransactions() {
@@ -1512,8 +1513,18 @@
             localStorage.setItem(getTransactionKey(), JSON.stringify(transactions));
         }
 
+        function showAuthFeedback(title, message) {
 
+            document.getElementById("authTitle").innerText = title;
+            document.getElementById("authMessage").innerText = message;
 
+            document.getElementById("authModal").style.display = "block";
+        }
+
+        function closeAuthModal(){
+
+            document.getElementById("authModal").style.display = "none";
+        }
 
         function completeTransfer(amount, fromAccount, toAccount) {
             // Add transaction to history
@@ -1781,7 +1792,67 @@
 
         document.addEventListener("contextmenu", event => event.preventDefault());
 
+
+
     </script>
+
+    <div id="authModal" class="auth-modal">
+        <div class="auth-box">
+
+            <span class="auth-close" onclick="closeAuthModal()">×</span>
+
+            <h2 id="authTitle"></h2>
+
+            <p id="authMessage"></p>
+
+            <button onclick="closeAuthModal()">Understand</button>
+
+        </div>
+    </div>
+
+    <style>
+        .auth-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+        }
+
+        .auth-box {
+            width: 400px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .auth-close {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .auth-box button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #a00000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 
     <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
 
