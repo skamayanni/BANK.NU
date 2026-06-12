@@ -1058,6 +1058,7 @@ body {
 }
 
 .auth-logo img {
+
     height: 70px;
 }
 
@@ -1213,3 +1214,8 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+#authTitle {
+            color: #a00000;
+            margin: 10px;
+        }
